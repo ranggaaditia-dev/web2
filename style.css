@@ -16,11 +16,13 @@ body {
     margin-left: 20px;
 }
 
-.kotak h3 {
+.kotak h3 a {
     color: rgb(248, 244, 244);
     text-align: center;
     font-size: 17px;
-    margin-top: 5px;
+    position: relative;
+    top: -15px;
+    margin-left: 6px;
 }
 
 /* ============================================= ABOUT ME ========================================================== */
@@ -33,12 +35,15 @@ body {
     margin-top: -30px;
 }
 
-.kotak1 h3 {
+.kotak1 h3 a {
     color: aliceblue;
     margin-top: 3px;
     text-align: center;
     font-size: 20px;
     width: 90px;
+    position: relative;
+    top: -15px;
+    margin-left: 9px;
 }
 
 .card{
