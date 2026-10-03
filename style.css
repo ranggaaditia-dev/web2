@@ -70,3 +70,43 @@ img {
     color: rgb(233, 229, 229);
     margin-left: 380px;
 }
+
+/* ===================================================================================================================================== */
+/* ========================================== PROJECT ME ======================================================================== */
+.kotak2 {
+    border: 5px solid rgb(11, 10, 10);
+    margin-top: 200px;
+    width: 200PX;
+    height: 240PX;
+    margin-left: 50PX;
+    background-color: rgb(7, 7, 7);
+    background-image: url('img/code_opt4_gold.png');
+}
+
+.kotak2 h3 {
+    color: rgb(244, 238, 238);
+    margin-top: 9px;
+    margin-left: 50px;
+    border: 2px solid rgb(239, 233, 233);
+    width: 100px;
+}
+
+.img2{
+    border: 1px;
+    margin-left: 100px;
+    position: relative;
+    top: -220px;
+    background-color: transparent;
+}
+
+button {
+    position: relative;
+    top: -200PX;
+    margin-left: -80PX;
+    background-color: rgb(246, 39, 7);
+}
+
+.Masuk {
+    color: aliceblue;
+}
+/* ======================================================================================================================================== */
