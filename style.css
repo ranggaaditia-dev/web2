@@ -51,13 +51,26 @@ body {
     background-color: black;
 }
 
-img {
+.foto1{
+    animation: fotomasuk 1s ease;
     margin-top: 20px;
     width: 100px;
     margin-left: 1070px;
     height: 150px;
     border-radius: 150px;
     border: 8px solid rgb(237, 232, 232);
+}
+
+@keyframes fotomasuk {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .judul {
@@ -91,15 +104,25 @@ img {
     width: 100px;
 }
 
-.img2{
-    border: 1px;
-    margin-left: 50px;
+.foto2 {
+    width: 135px;
     position: relative;
-    top: -65px;
-    background-color: transparent;
+    top: -35px;
+    margin-left: 30px;
+    animation: foto2masuk 1s ease;
 }
 
+@keyframes foto2masuk {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .kotak2 a {
     color: aliceblue;
