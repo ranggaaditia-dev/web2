@@ -76,12 +76,14 @@ body {
 .judul {
     color: rgb(243, 243, 243);
     margin-top: -155px;
-    margin-left: 450px;
+    margin-left: 440px;
+    font-size: 35px;
 }
 
 .subs {
     color: rgb(233, 229, 229);
-    margin-left: 380px;
+    margin-left: 290px;
+    font-size: 30px;
 }
 
 /* ===================================================================================================================================== */
@@ -226,9 +228,47 @@ img {
     width: 500PX;
     text-align: center;
     margin-left: 150PX;
+    font-size: 24px;
 }
 
 .AboutMe {
-    border: 16px solid white;
     margin-right: 10px;
 }
+/* =========================================================================================================================== */
+/* ============================================= CONTACT ============================================================================== */
+
+
+.Contact {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.CONTACTH1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+.CONTACTH2 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.CONTACTH3 {
+    font-size: 50px;
+    width: 790px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
