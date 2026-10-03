@@ -36,7 +36,7 @@ body {
 }
 
 .kotak1 h3 a {
-    color: aliceblue;
+    color: rgb(234, 237, 240);
     margin-top: 3px;
     text-align: center;
     font-size: 20px;
@@ -52,16 +52,16 @@ body {
 }
 
 .foto1{
-    animation: fotomasuk 1s ease;
-    margin-top: 20px;
+    border: 3px solid white;
+    position: relative;
+    top: 15px;
     width: 100px;
-    margin-left: 1070px;
-    height: 150px;
-    border-radius: 150px;
-    border: 8px solid rgb(237, 232, 232);
+    left: 180px;
+    border-radius: 30px;
+    animation: foto1masuk 1s ease;
 }
 
-@keyframes fotomasuk {
+@keyframes foto1masuk {
     from {
         opacity: 0;
         transform: translateX(100px);
@@ -97,7 +97,7 @@ body {
 }
 
 .kotak2 h3 {
-    color: rgb(251, 43, 6);
+    color: rgb(255, 255, 255);
     text-align: center;
     position:relative;
     top: -10px;
@@ -145,7 +145,7 @@ body {
 }
 
 .kotak3 h3 {
-    color: rgb(255, 0, 0);
+    color: rgb(250, 244, 244);
     text-align: center;
     position:relative;
     top: -6px;
@@ -181,4 +181,22 @@ body {
     position: relative;
     top: -25px;
     background-color: red;
+    font-size: 20px;
 }
+/* ==================================================================================================================================== */
+
+/* =================================== ISI ABOUT ME ================================================================== */
+
+.nama {
+    color: rgb(21, 21, 21);
+    margin-top: 5px;
+    
+
+}
+img {
+    width: 380px;
+    position: relative;
+    top: -250px;
+    margin-left: 799px;
+}
+
