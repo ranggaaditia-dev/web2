@@ -93,18 +93,13 @@ img {
 
 .img2{
     border: 1px;
-    margin-left: 100px;
+    margin-left: 50px;
     position: relative;
-    top: -220px;
+    top: -65px;
     background-color: transparent;
 }
 
-button {
-    position: relative;
-    top: -200PX;
-    margin-left: -80PX;
-    background-color: rgb(246, 39, 7);
-}
+
 
 .kotak2 a {
     color: aliceblue;
