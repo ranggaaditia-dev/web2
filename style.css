@@ -106,7 +106,12 @@ button {
     background-color: rgb(246, 39, 7);
 }
 
-.Masuk {
+.kotak2 a {
     color: aliceblue;
+    position: relative;
+    margin-left: 73px;
+    top: 130px;
+    font-size: 20px;
+    background-color: rgb(245, 13, 13);
 }
 /* ======================================================================================================================================== */
